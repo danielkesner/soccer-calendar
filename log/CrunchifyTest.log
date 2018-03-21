@@ -1,0 +1,1428 @@
+2018-01-15 14:22:22 [main] INFO  ApiConstants:33 - Index = 7, result = =c0edd888fdb74067812142854be00cc
+2018-01-15 14:23:01 [main] INFO  ApiConstants:33 - Index = 71, result = =c0edd888fdb74067812142854be00cc
+2018-01-15 14:24:17 [main] INFO  ApiConstants:34 - Index = 71, result: =c0edd888fdb74067812142854be00cc4
+2018-01-15 14:24:35 [main] INFO  ApiConstants:34 - Index = 9, result: =c0edd888fdb74067812142854be00cc4
+2018-01-15 14:24:53 [main] INFO  ApiConstants:34 - Index = 9, result: =c0edd888fdb74067812142854be00cc4
+2018-01-15 15:44:31 [main] ERROR CurrentRankingsDataProvider:28 - Error receiving response from calling getLeagueTablePayloadById(445)!
+2018-02-06 17:32:26 [main] INFO  FootballDataRestClient:51 - In getTeamIdsForTopThresholdTeams(), standingsThresholdValue is 6
+2018-02-19 14:53:25 [main] INFO  FootballDataRestClient:173 - 6
+2018-02-19 14:55:56 [main] INFO  FootballDataRestClient:172 - 6
+2018-02-19 14:55:59 [main] INFO  FootballDataRestClient:173 - true
+2018-02-19 14:56:27 [main] INFO  FootballDataRestClient:172 - 6
+2018-02-19 14:56:30 [main] INFO  FootballDataRestClient:173 - true
+2018-02-19 14:56:55 [main] INFO  FootballDataRestClient:172 - 11
+2018-02-19 14:56:58 [main] INFO  FootballDataRestClient:173 - true
+2018-02-19 14:57:14 [main] INFO  FootballDataRestClient:172 - 11
+2018-02-19 14:57:17 [main] INFO  FootballDataRestClient:173 - false
+2018-02-19 14:57:30 [main] INFO  FootballDataRestClient:172 - 6
+2018-02-19 14:57:32 [main] INFO  FootballDataRestClient:173 - true
+2018-02-19 14:57:50 [main] INFO  FootballDataRestClient:172 - 1
+2018-02-19 14:57:53 [main] INFO  FootballDataRestClient:173 - true
+2018-02-19 16:32:47 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@6ca8564a
+Away Team: model.Team@50b472aa
+Date: 2018-03-01T19:45:00Z
+2018-02-19 16:32:50 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@1cbbffcd
+Away Team: model.Team@27ce24aa
+Date: 2018-03-04T16:00:00Z
+2018-02-19 16:32:53 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@481a996b
+Away Team: model.Team@3d51f06e
+Date: 2018-03-07T19:45:00Z
+2018-02-19 16:32:55 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@7ed7259e
+Away Team: model.Team@28eaa59a
+Date: 2018-03-12T20:00:00Z
+2018-02-19 16:33:00 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@3427b02d
+Away Team: model.Team@647e447
+Date: 2018-03-31T16:30:00Z
+2018-02-19 16:33:02 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@41fbdac4
+Away Team: model.Team@3c407114
+Date: 2018-04-07T14:00:00Z
+2018-02-19 16:33:04 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@35ef1869
+Away Team: model.Team@c33b74f
+Date: 2018-04-14T14:00:00Z
+2018-02-19 16:33:10 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@130161f7
+Away Team: model.Team@2c767a52
+Date: 2018-04-28T14:00:00Z
+2018-02-19 16:33:15 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@619713e5
+Away Team: model.Team@708f5957
+Date: 2018-02-21T19:45:00Z
+2018-02-19 16:33:17 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@68999068
+Away Team: model.Team@7722c3c3
+Date: 2018-02-25T14:05:00Z
+2018-02-19 16:33:19 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@2ef3eef9
+Away Team: model.Team@243c4f91
+Date: 2018-03-05T20:00:00Z
+2018-02-19 16:33:21 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@291ae
+Away Team: model.Team@61df66b6
+Date: 2018-03-10T12:30:00Z
+2018-02-19 16:33:23 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@50eac852
+Away Team: model.Team@16ec5519
+Date: 2018-03-13T19:45:00Z
+2018-02-19 16:33:53 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@31368b99
+Away Team: model.Team@1725dc0f
+Date: 2018-03-01T19:45:00Z
+2018-02-19 16:33:55 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@481a996b
+Away Team: model.Team@3d51f06e
+Date: 2018-03-04T16:00:00Z
+2018-02-19 16:33:57 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@7ed7259e
+Away Team: model.Team@28eaa59a
+Date: 2018-03-07T19:45:00Z
+2018-02-19 16:33:59 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@3427b02d
+Away Team: model.Team@647e447
+Date: 2018-03-12T20:00:00Z
+2018-02-19 16:35:27 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@31368b99
+Away Team: model.Team@1725dc0f
+Date: 2018-03-01T19:45:00Z
+2018-02-19 16:36:09 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: model.Team@420a85c4
+Away Team: model.Team@1c39680d
+Date: 2018-03-01T19:45:00Z
+2018-02-19 16:36:16 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Arsenal FC
+Away Team: Manchester City FC
+Date: 2018-03-01T19:45:00Z
+2018-02-19 16:36:18 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: Chelsea FC
+Date: 2018-03-04T16:00:00Z
+2018-02-19 16:36:21 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: FC Basel
+Date: 2018-03-07T19:45:00Z
+2018-02-19 16:36:25 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Stoke City FC
+Away Team: Manchester City FC
+Date: 2018-03-12T20:00:00Z
+2018-02-19 16:36:29 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: Manchester City FC
+Date: 2018-03-31T16:30:00Z
+2018-02-19 16:36:31 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: Manchester United FC
+Date: 2018-04-07T14:00:00Z
+2018-02-19 16:36:34 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC
+Away Team: Manchester City FC
+Date: 2018-04-14T14:00:00Z
+2018-02-19 16:36:40 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: West Ham United FC
+Away Team: Manchester City FC
+Date: 2018-04-28T14:00:00Z
+2018-02-19 16:36:45 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Sevilla FC
+Away Team: Manchester United FC
+Date: 2018-02-21T19:45:00Z
+2018-02-19 16:36:48 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Manchester United FC
+Away Team: Chelsea FC
+Date: 2018-02-25T14:05:00Z
+2018-02-19 16:36:51 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Crystal Palace FC
+Away Team: Manchester United FC
+Date: 2018-03-05T20:00:00Z
+2018-02-19 16:36:54 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Manchester United FC
+Away Team: Liverpool FC
+Date: 2018-03-10T12:30:00Z
+2018-02-19 16:36:57 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Manchester United FC
+Away Team: Sevilla FC
+Date: 2018-03-13T19:45:00Z
+2018-03-15 17:32:48 [main] INFO  Driver:30 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: Manchester City FC
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:13:00 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - model.Team@31368b99
+2018-03-15 18:13:03 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - model.Team@27ce24aa
+2018-03-15 18:13:05 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: Manchester City FC
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:13:05 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - model.Team@481a996b
+2018-03-15 18:13:09 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: Manchester United FC
+Date: 2018-04-07T16:30:00Z
+2018-03-15 18:13:09 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - model.Team@3d51f06e
+2018-03-15 18:13:30 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - -1
+2018-03-15 18:13:33 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - -1
+2018-03-15 18:13:35 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: Manchester City FC
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:13:35 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - -1
+2018-03-15 18:13:39 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: Manchester United FC
+Date: 2018-04-07T16:30:00Z
+2018-03-15 18:13:39 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - -1
+2018-03-15 18:13:41 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC
+Away Team: Manchester City FC
+Date: 2018-04-14T18:45:00Z
+2018-03-15 18:13:41 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - -1
+2018-03-15 18:13:43 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - -1
+2018-03-15 18:13:46 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: West Ham United FC
+Away Team: Manchester City FC
+Date: 2018-04-29T13:15:00Z
+2018-03-15 18:13:46 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - -1
+2018-03-15 18:14:13 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - -1
+2018-03-15 18:24:40 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - 11
+2018-03-15 18:24:47 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - 1
+2018-03-15 18:24:51 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: Manchester City FC
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:24:53 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - 2
+2018-03-15 18:24:58 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: Manchester United FC
+Date: 2018-04-07T16:30:00Z
+2018-03-15 18:25:00 [main] INFO  Driver:29 - ***** Home rank - -1	Away rank - 1
+2018-03-15 18:26:50 [main] INFO  Driver:29 - ***** Home:	 Manchester City FC	-1	Away:	 Brighton & Hove Albion	11
+2018-03-15 18:27:01 [main] INFO  Driver:29 - ***** Home:	 Everton FC	-1	Away:	 Manchester City FC	1
+2018-03-15 18:27:07 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: Manchester City FC
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:27:13 [main] INFO  Driver:29 - ***** Home:	 Manchester City FC	-1	Away:	 Manchester United FC	2
+2018-03-15 18:27:18 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: Manchester United FC
+Date: 2018-04-07T16:30:00Z
+2018-03-15 18:27:24 [main] INFO  Driver:29 - ***** Home:	 Tottenham Hotspur FC	-1	Away:	 Manchester City FC	1
+2018-03-15 18:28:54 [main] INFO  Driver:26 - Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-15 18:28:59 [main] INFO  Driver:30 - ***** Home:	 Manchester City FC	-1	Away:	 Brighton & Hove Albion	11
+2018-03-15 18:29:08 [main] INFO  Driver:30 - ***** Home:	 Everton FC	-1	Away:	 Manchester City FC	1
+2018-03-15 18:29:13 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: model.Team@3daa422a
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:29:21 [main] INFO  Driver:30 - ***** Home:	 Manchester City FC	-1	Away:	 Manchester United FC	2
+2018-03-15 18:29:26 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: model.Team@31c88ec8
+Date: 2018-04-07T16:30:00Z
+2018-03-15 18:29:30 [main] INFO  Driver:30 - ***** Home:	 Tottenham Hotspur FC	-1	Away:	 Manchester City FC	1
+2018-03-15 18:29:38 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC
+Away Team: model.Team@1cbbffcd
+Date: 2018-04-14T18:45:00Z
+2018-03-15 18:29:43 [main] INFO  Driver:30 - ***** Home:	 Manchester City FC	-1	Away:	 Swansea City FC	14
+2018-03-15 18:29:57 [main] INFO  Driver:26 - Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-15 18:30:10 [main] INFO  Driver:30 - ***** Home:	 Manchester City FC	-1	Away:	 Brighton & Hove Albion	11
+2018-03-15 18:30:24 [main] INFO  Driver:30 - ***** Home:	 Everton FC	-1	Away:	 Manchester City FC	1
+2018-03-15 18:30:29 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: Manchester City FC
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:30:35 [main] INFO  Driver:30 - ***** Home:	 Manchester City FC	-1	Away:	 Manchester United FC	2
+2018-03-15 18:30:42 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC
+Away Team: Manchester United FC
+Date: 2018-04-07T16:30:00Z
+2018-03-15 18:30:49 [main] INFO  Driver:30 - ***** Home:	 Tottenham Hotspur FC	-1	Away:	 Manchester City FC	1
+2018-03-15 18:30:55 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC
+Away Team: Manchester City FC
+Date: 2018-04-14T18:45:00Z
+2018-03-15 18:30:59 [main] INFO  Driver:30 - ***** Home:	 Manchester City FC	-1	Away:	 Swansea City FC	14
+2018-03-15 18:31:13 [main] INFO  Driver:30 - ***** Home:	 West Ham United FC	-1	Away:	 Manchester City FC	1
+2018-03-15 18:32:19 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-15 18:32:26 [main] INFO  Driver:30 - Home:	 Manchester City FC		0	Away:	 Brighton & Hove Albion	11
+2018-03-15 18:32:34 [main] INFO  Driver:30 - Home:	 Everton FC		0	Away:	 Manchester City FC	1
+2018-03-15 18:32:38 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC
+Away Team: Manchester City FC
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:32:45 [main] INFO  Driver:30 - Home:	 Manchester City FC		0	Away:	 Manchester United FC	2
+2018-03-15 18:34:05 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-15 18:34:12 [main] INFO  Driver:30 - Home:	 Manchester City FC		0	Away:	 Brighton & Hove Albion	11
+2018-03-15 18:34:49 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-15 18:34:54 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Brighton & Hove Albion		Ranking: 11
+2018-03-15 18:35:09 [main] INFO  Driver:30 - Home:	 Everton FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-15 18:35:14 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC		Ranking: 0
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-03-31T16:30:00Z
+2018-03-15 18:35:19 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Manchester United FC		Ranking: 2
+2018-03-15 18:35:23 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 0
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+2018-03-15 18:35:28 [main] INFO  Driver:30 - Home:	 Tottenham Hotspur FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-15 18:35:33 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 0
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-14T18:45:00Z
+2018-03-15 18:35:37 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Swansea City FC		Ranking: 14
+2018-03-15 18:35:49 [main] INFO  Driver:30 - Home:	 West Ham United FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-15 18:35:53 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: West Ham United FC		Ranking: 0
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-29T13:15:00Z
+2018-03-15 18:35:58 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Huddersfield Town		Ranking: 15
+2018-03-15 18:36:13 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Manchester United FC	Rank is: 2
+2018-03-15 18:36:20 [main] INFO  Driver:30 - Home:	 West Ham United FC		Ranking: 0	Away:	 Manchester United FC		Ranking: 2
+2018-03-15 18:36:28 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: West Ham United FC		Ranking: 0
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-03-18T13:30:00Z
+2018-03-15 18:36:33 [main] INFO  Driver:30 - Home:	 Manchester United FC		Ranking: 0	Away:	 Swansea City FC		Ranking: 14
+2018-03-15 18:36:43 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Manchester United FC		Ranking: 2
+2018-03-15 18:36:49 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 0
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+2018-03-15 18:36:53 [main] INFO  Driver:30 - Home:	 Manchester United FC		Ranking: 0	Away:	 West Bromwich Albion FC		Ranking: 20
+2018-03-15 18:37:02 [main] INFO  Driver:30 - Home:	 AFC Bournemouth		Ranking: 0	Away:	 Manchester United FC		Ranking: 2
+2018-03-15 18:37:13 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: AFC Bournemouth		Ranking: 0
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-21T16:30:00Z
+2018-03-15 18:37:19 [main] INFO  Driver:30 - Home:	 Manchester United FC		Ranking: 0	Away:	 Arsenal FC		Ranking: 6
+2018-03-15 18:37:25 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester United FC		Ranking: 0
+Away Team: Arsenal FC		Ranking: 6
+Date: 2018-04-29T15:30:00Z
+2018-03-15 18:37:31 [main] INFO  Driver:30 - Home:	 Brighton & Hove Albion		Ranking: 0	Away:	 Manchester United FC		Ranking: 2
+2018-03-15 18:37:35 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Brighton & Hove Albion		Ranking: 0
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-05-05T14:00:00Z
+2018-03-15 18:37:40 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Tottenham Hotspur FC	Rank is: 3
+2018-03-15 18:37:45 [main] INFO  Driver:30 - Home:	 Tottenham Hotspur FC		Ranking: 0	Away:	 Newcastle United FC		Ranking: 13
+2018-03-15 18:37:58 [main] INFO  Driver:30 - Home:	 Chelsea FC		Ranking: 0	Away:	 Tottenham Hotspur FC		Ranking: 3
+2018-03-15 18:38:03 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Chelsea FC		Ranking: 0
+Away Team: Tottenham Hotspur FC		Ranking: 3
+Date: 2018-04-01T15:00:00Z
+2018-03-15 18:38:10 [main] INFO  Driver:30 - Home:	 Stoke City FC		Ranking: 0	Away:	 Tottenham Hotspur FC		Ranking: 3
+2018-03-15 18:38:15 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Stoke City FC		Ranking: 0
+Away Team: Tottenham Hotspur FC		Ranking: 3
+Date: 2018-04-07T14:00:00Z
+2018-03-15 18:38:21 [main] INFO  Driver:30 - Home:	 Tottenham Hotspur FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-15 18:38:28 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 0
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-14T18:45:00Z
+2018-03-15 18:38:33 [main] INFO  Driver:30 - Home:	 Brighton & Hove Albion		Ranking: 0	Away:	 Tottenham Hotspur FC		Ranking: 3
+2018-03-15 18:38:38 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Brighton & Hove Albion		Ranking: 0
+Away Team: Tottenham Hotspur FC		Ranking: 3
+Date: 2018-04-20T19:00:00Z
+2018-03-15 18:38:45 [main] INFO  Driver:30 - Home:	 Tottenham Hotspur FC		Ranking: 0	Away:	 Watford FC		Ranking: 10
+2018-03-15 18:39:00 [main] INFO  Driver:30 - Home:	 West Bromwich Albion FC		Ranking: 0	Away:	 Tottenham Hotspur FC		Ranking: 3
+2018-03-15 18:39:07 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: West Bromwich Albion FC		Ranking: 0
+Away Team: Tottenham Hotspur FC		Ranking: 3
+Date: 2018-05-05T14:00:00Z
+2018-03-15 18:39:12 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Liverpool FC	Rank is: 4
+2018-03-15 18:39:20 [main] INFO  Driver:30 - Home:	 Liverpool FC		Ranking: 0	Away:	 Watford FC		Ranking: 10
+2018-03-15 18:39:29 [main] INFO  Driver:30 - Home:	 Crystal Palace FC		Ranking: 0	Away:	 Liverpool FC		Ranking: 4
+2018-03-15 18:39:34 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Crystal Palace FC		Ranking: 0
+Away Team: Liverpool FC		Ranking: 4
+Date: 2018-03-31T11:30:00Z
+2018-03-15 18:39:41 [main] INFO  Driver:30 - Home:	 Everton FC		Ranking: 0	Away:	 Liverpool FC		Ranking: 4
+2018-03-15 18:39:48 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC		Ranking: 0
+Away Team: Liverpool FC		Ranking: 4
+Date: 2018-04-08T13:15:00Z
+2018-03-15 18:39:53 [main] INFO  Driver:30 - Home:	 Liverpool FC		Ranking: 0	Away:	 AFC Bournemouth		Ranking: 12
+2018-03-21 09:56:51 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-21 10:00:42 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-21 10:00:49 [main] INFO  Driver:30 - Home:	 Everton FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-21 10:00:53 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Everton FC		Ranking: 0
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-03-31T16:30:00Z
+2018-03-21 10:00:58 [main] INFO  Driver:30 - Home:	 Liverpool FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-21 10:01:04 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 0
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-04T18:45:00Z
+2018-03-21 10:01:10 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Manchester United FC		Ranking: 2
+2018-03-21 10:01:14 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 0
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+2018-03-21 10:01:17 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Liverpool FC		Ranking: 3
+2018-03-21 10:01:21 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 0
+Away Team: Liverpool FC		Ranking: 3
+Date: 2018-04-10T18:45:00Z
+2018-03-21 10:01:26 [main] INFO  Driver:30 - Home:	 Tottenham Hotspur FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-21 10:01:30 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 0
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-14T18:45:00Z
+2018-03-21 10:01:35 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Swansea City FC		Ranking: 14
+2018-03-21 10:01:42 [main] INFO  Driver:30 - Home:	 West Ham United FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-21 10:01:46 [main] INFO  Driver:33 - Found good upcoming match! 
+Home Team: West Ham United FC		Ranking: 0
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-29T13:15:00Z
+2018-03-21 10:01:53 [main] INFO  Driver:30 - Home:	 Manchester City FC		Ranking: 0	Away:	 Huddersfield Town		Ranking: 15
+2018-03-21 10:02:02 [main] INFO  Driver:26 - ****** Top of for loop, currentTeam is: Manchester United FC	Rank is: 2
+2018-03-21 10:19:44 [main] INFO  Driver:27 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-21 10:19:48 [main] INFO  Driver:31 - Home:	 Everton FC		Ranking: 0	Away:	 Everton FC		Ranking: 9
+2018-03-21 10:19:55 [main] INFO  Driver:31 - Home:	 Liverpool FC		Ranking: 0	Away:	 Liverpool FC		Ranking: 3
+2018-03-21 10:19:59 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-04T18:45:00Z
+2018-03-21 10:20:08 [main] INFO  Driver:31 - Home:	 Manchester City FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-21 10:20:12 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 0
+Date: 2018-04-07T16:30:00Z
+2018-03-21 10:20:16 [main] INFO  Driver:31 - Home:	 Manchester City FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-21 10:20:19 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 0
+Date: 2018-04-10T18:45:00Z
+2018-03-21 10:20:23 [main] INFO  Driver:31 - Home:	 Tottenham Hotspur FC		Ranking: 0	Away:	 Tottenham Hotspur FC		Ranking: 4
+2018-03-21 10:20:28 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-14T18:45:00Z
+2018-03-21 10:37:07 [main] INFO  Driver:27 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-21 10:37:07 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	model.Team@3daa422a
+Away team:	model.Team@31c88ec8
+2018-03-21 10:37:07 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:08 [main] INFO  Fixture:81 - Returning the following Team: Everton FC with rank 9
+2018-03-21 10:37:08 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	model.Team@3daa422a
+Away team:	model.Team@31c88ec8
+2018-03-21 10:37:08 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:10 [main] INFO  Fixture:81 - Returning the following Team: Everton FC with rank 9
+2018-03-21 10:37:10 [main] INFO  Driver:31 - Home:	 Everton FC		Ranking: 0	Away:	 Everton FC		Ranking: 9
+2018-03-21 10:37:10 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	model.Team@3daa422a
+Away team:	model.Team@31c88ec8
+2018-03-21 10:37:10 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:12 [main] INFO  Fixture:81 - Returning the following Team: Everton FC with rank 9
+2018-03-21 10:37:14 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	model.Team@1cbbffcd
+Away team:	model.Team@27ce24aa
+2018-03-21 10:37:14 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:16 [main] INFO  Fixture:81 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 10:37:16 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	model.Team@1cbbffcd
+Away team:	model.Team@27ce24aa
+2018-03-21 10:37:16 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:43 [main] INFO  Driver:27 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-21 10:37:44 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Everton FC
+Away team:	Manchester City FC
+2018-03-21 10:37:44 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:46 [main] INFO  Fixture:81 - Returning the following Team: Everton FC with rank 9
+2018-03-21 10:37:46 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Everton FC
+Away team:	Manchester City FC
+2018-03-21 10:37:46 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:47 [main] INFO  Fixture:81 - Returning the following Team: Everton FC with rank 9
+2018-03-21 10:37:47 [main] INFO  Driver:31 - Home:	 Everton FC		Ranking: 0	Away:	 Everton FC		Ranking: 9
+2018-03-21 10:37:47 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Everton FC
+Away team:	Manchester City FC
+2018-03-21 10:37:47 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:49 [main] INFO  Fixture:81 - Returning the following Team: Everton FC with rank 9
+2018-03-21 10:37:51 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Liverpool FC
+Away team:	Manchester City FC
+2018-03-21 10:37:51 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:53 [main] INFO  Fixture:81 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 10:37:53 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Liverpool FC
+Away team:	Manchester City FC
+2018-03-21 10:37:53 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:56 [main] INFO  Fixture:81 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 10:37:56 [main] INFO  Driver:31 - Home:	 Liverpool FC		Ranking: 0	Away:	 Liverpool FC		Ranking: 3
+2018-03-21 10:37:56 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Liverpool FC
+Away team:	Manchester City FC
+2018-03-21 10:37:56 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:37:58 [main] INFO  Fixture:81 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 10:38:00 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-04T18:45:00Z
+2018-03-21 10:38:00 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Manchester United FC
+2018-03-21 10:38:00 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:02 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 10:38:02 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Manchester United FC
+2018-03-21 10:38:02 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:05 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 10:38:05 [main] INFO  Driver:31 - Home:	 Manchester City FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-21 10:38:05 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Manchester United FC
+2018-03-21 10:38:05 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:07 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 10:38:09 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 0
+Date: 2018-04-07T16:30:00Z
+2018-03-21 10:38:09 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Liverpool FC
+2018-03-21 10:38:09 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:11 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 10:38:11 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Liverpool FC
+2018-03-21 10:38:11 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:13 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 10:38:13 [main] INFO  Driver:31 - Home:	 Manchester City FC		Ranking: 0	Away:	 Manchester City FC		Ranking: 1
+2018-03-21 10:38:13 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Liverpool FC
+2018-03-21 10:38:13 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:15 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 10:38:18 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 0
+Date: 2018-04-10T18:45:00Z
+2018-03-21 10:38:18 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+2018-03-21 10:38:18 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:20 [main] INFO  Fixture:81 - Returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 10:38:20 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+2018-03-21 10:38:20 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:22 [main] INFO  Fixture:81 - Returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 10:38:22 [main] INFO  Driver:31 - Home:	 Tottenham Hotspur FC		Ranking: 0	Away:	 Tottenham Hotspur FC		Ranking: 4
+2018-03-21 10:38:22 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+2018-03-21 10:38:22 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 10:38:24 [main] INFO  Fixture:81 - Returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 10:38:26 [main] INFO  Driver:34 - Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-14T18:45:00Z
+2018-03-21 10:38:26 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Swansea City FC
+2018-03-21 10:38:26 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 11:38:08 [main] INFO  Driver:27 - ****** Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-21 11:38:09 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Everton FC
+Away team:	Manchester City FC
+2018-03-21 11:38:09 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 11:38:10 [main] INFO  Fixture:81 - Returning the following Team: Everton FC with rank 9
+2018-03-21 11:38:12 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Liverpool FC
+Away team:	Manchester City FC
+2018-03-21 11:38:12 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 11:38:14 [main] INFO  Fixture:81 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 11:38:16 [main] INFO  Driver:34 - ****** Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-04T18:45:00Z
+2018-03-21 11:38:16 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Manchester United FC
+2018-03-21 11:38:16 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 11:38:18 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:38:20 [main] INFO  Driver:34 - ****** Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 0
+Date: 2018-04-07T16:30:00Z
+2018-03-21 11:38:20 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Liverpool FC
+2018-03-21 11:38:20 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 11:38:22 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:38:24 [main] INFO  Driver:34 - ****** Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 0
+Date: 2018-04-10T18:45:00Z
+2018-03-21 11:38:24 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+2018-03-21 11:38:24 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 11:38:27 [main] INFO  Fixture:81 - Returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 11:38:29 [main] INFO  Driver:34 - ****** Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-14T18:45:00Z
+2018-03-21 11:38:29 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	Manchester City FC
+Away team:	Swansea City FC
+2018-03-21 11:38:29 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 11:38:32 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:38:35 [main] INFO  Driver:34 - ****** Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Swansea City FC		Ranking: 0
+Date: 2018-04-22T15:30:00Z
+2018-03-21 11:38:35 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+ Home Team:	West Ham United FC
+Away team:	Manchester City FC
+2018-03-21 11:38:35 [main] INFO  Fixture:69 - 
+Team name: Manchester City FC		Team current rank:	1
+2018-03-21 11:38:37 [main] INFO  Fixture:81 - Returning the following Team: West Ham United FC with rank 17
+2018-03-21 11:44:57 [main] INFO  Driver:27 - =~=~=~=~= Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-21 11:44:58 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:45:00 [main] INFO  Fixture:81 - Returning the following Team: Everton FC with rank 9
+2018-03-21 11:45:07 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:45:11 [main] INFO  Fixture:81 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 11:45:13 [main] INFO  Driver:34 - *************
+ Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 11:45:13 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:45:15 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:45:16 [main] INFO  Driver:34 - *************
+ Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 0
+Date: 2018-04-07T16:30:00Z
+Competition: Premier League
+*************
+2018-03-21 11:45:16 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Liverpool FC
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:45:19 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:45:20 [main] INFO  Driver:34 - *************
+ Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 0
+Date: 2018-04-10T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 11:45:20 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:45:23 [main] INFO  Fixture:81 - Returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 11:45:25 [main] INFO  Driver:34 - *************
+ Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-14T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 11:45:25 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Swansea City FC
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:45:27 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:45:29 [main] INFO  Driver:34 - *************
+ Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Swansea City FC		Ranking: 0
+Date: 2018-04-22T15:30:00Z
+Competition: Premier League
+*************
+2018-03-21 11:45:29 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	West Ham United FC
+Away team:	Manchester City FC
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:45:31 [main] INFO  Fixture:81 - Returning the following Team: West Ham United FC with rank 17
+2018-03-21 11:45:33 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Huddersfield Town
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:45:35 [main] INFO  Fixture:81 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:54:31 [main] INFO  Driver:27 - =~=~=~=~= Top of for loop, currentTeam is: Manchester City FC	Rank is: 1
+2018-03-21 11:54:31 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	0
+Away rank:	0
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:54:33 [main] INFO  Fixture:82 - Returning the following Team: Everton FC with rank 9
+2018-03-21 11:54:34 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	0
+Away rank:	0
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:54:36 [main] INFO  Fixture:82 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 11:54:39 [main] INFO  Driver:34 - 
+*************
+ Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 11:54:39 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	0
+Away rank:	0
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:54:41 [main] INFO  Fixture:82 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:54:43 [main] INFO  Driver:34 - 
+*************
+ Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 0
+Date: 2018-04-07T16:30:00Z
+Competition: Premier League
+*************
+2018-03-21 11:54:43 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Liverpool FC
+Home rank:	0
+Away rank:	0
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:54:45 [main] INFO  Fixture:82 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 11:54:47 [main] INFO  Driver:34 - 
+*************
+ Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 0
+Date: 2018-04-10T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 11:54:47 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+Home rank:	0
+Away rank:	0
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 11:54:49 [main] INFO  Fixture:82 - Returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 11:54:51 [main] INFO  Driver:34 - 
+*************
+ Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 0
+Date: 2018-04-14T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 11:54:51 [main] INFO  Fixture:67 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Swansea City FC
+Home rank:	0
+Away rank:	0
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:20:14 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:20:16 [main] INFO  Fixture:94 - Returning the following Team: Everton FC with rank 9
+2018-03-21 13:20:25 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:20:27 [main] INFO  Fixture:94 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 13:20:30 [main] INFO  Driver:36 - 
+*************
+ Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 13:20:35 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:20:37 [main] INFO  Fixture:94 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 13:20:39 [main] INFO  Driver:36 - 
+*************
+ Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+Competition: Premier League
+*************
+2018-03-21 13:20:45 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Liverpool FC
+Home rank:	1
+Away rank:	3
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:20:49 [main] INFO  Fixture:94 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 13:20:50 [main] INFO  Driver:36 - 
+*************
+ Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 3
+Date: 2018-04-10T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 13:20:55 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+Home rank:	4
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:20:57 [main] INFO  Fixture:94 - Returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 13:21:00 [main] INFO  Driver:36 - 
+*************
+ Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-14T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 13:21:05 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Swansea City FC
+Home rank:	1
+Away rank:	14
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:21:07 [main] INFO  Fixture:94 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 13:21:09 [main] INFO  Driver:36 - 
+*************
+ Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Swansea City FC		Ranking: 14
+Date: 2018-04-22T15:30:00Z
+Competition: Premier League
+*************
+2018-03-21 13:21:12 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	West Ham United FC
+Away team:	Manchester City FC
+Home rank:	17
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:21:14 [main] INFO  Fixture:94 - Returning the following Team: West Ham United FC with rank 17
+2018-03-21 13:21:19 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Huddersfield Town
+Home rank:	1
+Away rank:	15
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:28:41 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:28:41 [main] INFO  Fixture:94 - Returning the following Team: Everton FC with rank 9
+2018-03-21 13:28:45 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:28:45 [main] INFO  Fixture:94 - Returning the following Team: Everton FC with rank 9
+2018-03-21 13:28:47 [main] INFO  Driver:35 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Everton FC) == false
+2018-03-21 13:28:52 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:28:52 [main] INFO  Fixture:94 - Returning the following Team: Everton FC with rank 9
+2018-03-21 13:28:58 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:28:58 [main] INFO  Fixture:94 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 13:29:02 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:29:02 [main] INFO  Fixture:94 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 13:29:05 [main] INFO  Driver:35 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Liverpool FC) == true
+2018-03-21 13:29:09 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:29:09 [main] INFO  Fixture:94 - Returning the following Team: Liverpool FC with rank 3
+2018-03-21 13:29:12 [main] INFO  Driver:38 - 
+*************
+ Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 13:29:16 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:29:16 [main] INFO  Fixture:94 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 13:29:21 [main] INFO  Fixture:79 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:29:21 [main] INFO  Fixture:94 - Returning the following Team: Manchester City FC with rank 1
+2018-03-21 13:29:23 [main] INFO  Driver:35 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Manchester City FC) == true
+2018-03-21 13:53:51 [main] INFO  Fixture:80 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Swansea City FC
+Home rank:	1
+Away rank:	14
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 13:53:51 [main] INFO  Fixture:89 - getOpponent() returning the following Team: Swansea City FC with rank 14
+2018-03-21 14:51:49 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 14:51:49 [main] INFO  Fixture:101 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 14:51:54 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 14:51:54 [main] INFO  Fixture:101 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 14:51:56 [main] INFO  Driver:38 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Everton FC) == false
+2018-03-21 14:52:00 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 14:52:00 [main] INFO  Fixture:101 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 14:52:06 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 14:52:06 [main] INFO  Fixture:101 - getOpponent() returning the following Team: Liverpool FC with rank 3
+2018-03-21 15:19:38 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:19:38 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 15:19:43 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:19:43 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 15:19:45 [main] INFO  Driver:38 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Everton FC) == false
+2018-03-21 15:19:51 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:19:51 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 15:20:09 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:09 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Liverpool FC with rank 3
+2018-03-21 15:20:19 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:19 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Liverpool FC with rank 3
+2018-03-21 15:20:23 [main] INFO  Driver:38 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Liverpool FC) == true
+2018-03-21 15:20:27 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:27 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Liverpool FC with rank 3
+2018-03-21 15:20:29 [main] INFO  Driver:42 - 
+*************
+Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:20:32 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:32 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:20:35 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:35 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:20:37 [main] INFO  Driver:38 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Manchester City FC) == true
+2018-03-21 15:20:41 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:41 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:20:43 [main] INFO  Driver:42 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+Competition: Premier League
+*************
+2018-03-21 15:20:47 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Liverpool FC
+Home rank:	1
+Away rank:	3
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:47 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:20:50 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Liverpool FC
+Home rank:	1
+Away rank:	3
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:50 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:20:52 [main] INFO  Driver:38 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Manchester City FC) == true
+2018-03-21 15:20:56 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Liverpool FC
+Home rank:	1
+Away rank:	3
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:20:56 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:20:57 [main] INFO  Driver:42 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 3
+Date: 2018-04-10T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:21:01 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+Home rank:	4
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:21:01 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 15:21:07 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+Home rank:	4
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:21:07 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 15:21:09 [main] INFO  Driver:38 - isTeamWithinThresholdRanking(PREMIER_LEAGUE, Tottenham Hotspur FC) == true
+2018-03-21 15:21:12 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+Home rank:	4
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:21:12 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 15:28:18 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:28:18 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 15:28:26 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:28:26 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Liverpool FC with rank 3
+2018-03-21 15:28:28 [main] INFO  Driver:47 - 
+*************
+Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:28:33 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:28:33 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:28:34 [main] INFO  Driver:47 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+Competition: Premier League
+*************
+2018-03-21 15:28:38 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Liverpool FC
+Home rank:	1
+Away rank:	3
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:28:38 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:28:40 [main] INFO  Driver:47 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 3
+Date: 2018-04-10T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:28:44 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+Home rank:	4
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:28:44 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 15:28:46 [main] INFO  Driver:47 - 
+*************
+Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-14T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:28:50 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Swansea City FC
+Home rank:	1
+Away rank:	14
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:28:50 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:28:51 [main] INFO  Driver:47 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Swansea City FC		Ranking: 14
+Date: 2018-04-22T15:30:00Z
+Competition: Premier League
+*************
+2018-03-21 15:28:56 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	West Ham United FC
+Away team:	Manchester City FC
+Home rank:	17
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:28:56 [main] INFO  Fixture:99 - getOpponent() returning the following Team: West Ham United FC with rank 17
+2018-03-21 15:39:07 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:43:17 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 15:43:24 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:44:48 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Liverpool FC with rank 3
+2018-03-21 15:44:49 [main] INFO  Driver:39 - 
+*************
+Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:44:54 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:45:11 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:45:13 [main] INFO  Driver:39 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+Competition: Premier League
+*************
+2018-03-21 15:50:02 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Everton FC
+Away team:	Manchester City FC
+Home rank:	9
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:50:04 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Everton FC with rank 9
+2018-03-21 15:50:13 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Liverpool FC
+Away team:	Manchester City FC
+Home rank:	3
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:50:15 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Liverpool FC with rank 3
+2018-03-21 15:50:17 [main] INFO  Driver:39 - 
+*************
+Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:50:21 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Manchester United FC
+Home rank:	1
+Away rank:	2
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:50:32 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:50:35 [main] INFO  Driver:39 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+Competition: Premier League
+*************
+2018-03-21 15:50:38 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Liverpool FC
+Home rank:	1
+Away rank:	3
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:50:54 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 15:50:56 [main] INFO  Driver:39 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 3
+Date: 2018-04-10T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:50:59 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Tottenham Hotspur FC
+Away team:	Manchester City FC
+Home rank:	4
+Away rank:	1
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 15:51:16 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Tottenham Hotspur FC with rank 4
+2018-03-21 15:51:17 [main] INFO  Driver:39 - 
+*************
+Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-14T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 15:51:20 [main] INFO  Fixture:82 - getOpponent() received the following arguments: 
+Fixture:
+Home Team:	Manchester City FC
+Away team:	Swansea City FC
+Home rank:	1
+Away rank:	14
+Team argument passed in: Manchester City FC		Rank of team argument passed in:	1
+2018-03-21 16:00:42 [main] INFO  Fixture:99 - getOpponent() returning the following Team: Manchester City FC with rank 1
+2018-03-21 16:02:12 [main] INFO  Driver:40 - 
+*************
+Found good upcoming match! 
+Home Team: Liverpool FC		Ranking: 3
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-04T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 16:02:18 [main] INFO  Driver:40 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Manchester United FC		Ranking: 2
+Date: 2018-04-07T16:30:00Z
+Competition: Premier League
+*************
+2018-03-21 16:02:24 [main] INFO  Driver:40 - 
+*************
+Found good upcoming match! 
+Home Team: Manchester City FC		Ranking: 1
+Away Team: Liverpool FC		Ranking: 3
+Date: 2018-04-10T18:45:00Z
+Competition: Premier League
+*************
+2018-03-21 16:02:29 [main] INFO  Driver:40 - 
+*************
+Found good upcoming match! 
+Home Team: Tottenham Hotspur FC		Ranking: 4
+Away Team: Manchester City FC		Ranking: 1
+Date: 2018-04-14T18:45:00Z
+Competition: Premier League
+*************
