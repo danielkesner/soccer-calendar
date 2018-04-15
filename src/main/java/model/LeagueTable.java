@@ -1,7 +1,6 @@
 package model;
 
 import cache.CacheService;
-import client.FootballDataRestClient;
 import com.fasterxml.jackson.databind.JsonNode;
 import config.ConfigService;
 import org.apache.logging.log4j.LogManager;
@@ -15,7 +14,7 @@ public class LeagueTable {
 
     private List<Team> _standings;
     private JsonNode _leagueTableResponse;
-    private Competition.CompetitionEnum _competition;
+    private CompetitionEnum _competition;
     private List<Team> topTeams;
     private int competitionId;
     private CacheService cacheService = new CacheService();
@@ -37,7 +36,7 @@ public class LeagueTable {
         return this.topTeams;
     }
 
-    public Competition.CompetitionEnum getCompetitionOfLeagueTable() {
+    public CompetitionEnum getCompetitionOfLeagueTable() {
         return this._competition;
     }
 
@@ -72,8 +71,8 @@ public class LeagueTable {
         }
     }
 
-    private Competition.CompetitionEnum getCompetitionEnum() {
-        return Competition.CompetitionEnum.getEnumByStringName(
+    private CompetitionEnum getCompetitionEnum() {
+        return CompetitionEnum.getEnumByStringName(
                 _leagueTableResponse.get("leagueCaption").asText()
         );
     }

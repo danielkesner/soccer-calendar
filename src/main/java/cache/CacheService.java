@@ -5,7 +5,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import config.ConfigService;
 import constants.CacheConstants;
-import model.Competition;
+import model.CompetitionEnum;
+
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -13,7 +14,10 @@ import org.apache.logging.log4j.Logger;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.Charset;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class CacheService {
 
@@ -22,7 +26,7 @@ public class CacheService {
 
     private static final File competitionIdsCacheFile = new File(CacheConstants.COMPETITION_IDS_CACHE_FILE);
 
-    private Map<Competition.CompetitionEnum, String> _competitionIds = new HashMap<Competition.CompetitionEnum, String>();
+    private Map<CompetitionEnum, String> _competitionIds = new HashMap<CompetitionEnum, String>();
 
     private List<Integer> _allCompetitionIds = new ArrayList<Integer>();
 
@@ -39,7 +43,7 @@ public class CacheService {
         return ids;
     }
 
-    public int getCompetitionIdByCompetitionEnum(Competition.CompetitionEnum ce) {
+    public int getCompetitionIdByCompetitionEnum(CompetitionEnum ce) {
         return _competitionIds.isEmpty() ? -1
                 : Integer.parseInt(_competitionIds.get(ce));
     }
@@ -86,7 +90,7 @@ public class CacheService {
         for (JsonNode competition : _client.getCompetitionsNode()) {
             String competitionName = competition.get("caption").asText();
             if (competitionsToKeep.contains(competitionName)) {
-                _competitionIds.put(Competition.CompetitionEnum.getEnumByStringName(competitionName), competition.get("id").asText());
+                _competitionIds.put(CompetitionEnum.getEnumByStringName(competitionName), competition.get("id").asText());
             }
         }
     }

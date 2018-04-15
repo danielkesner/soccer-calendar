@@ -1,6 +1,6 @@
 package config;
 
-import model.Competition;
+import model.CompetitionEnum;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -37,11 +37,11 @@ public class ConfigService {
     /*
      * Returns a list of CompetitionEnums that we want to get data on
      */
-    public static List<Competition.CompetitionEnum> getCompetitions() throws IOException {
+    public static List<CompetitionEnum> getCompetitions() throws IOException {
         List<String> list = Arrays.asList(getValue("COMPETITIONS").split(","));
-        List<Competition.CompetitionEnum> ret = new ArrayList<Competition.CompetitionEnum>(list.size());
+        List<CompetitionEnum> ret = new ArrayList<CompetitionEnum>(list.size());
         for (String sEnum : list) {
-            Competition.CompetitionEnum competitionEnum = Competition.CompetitionEnum.getEnumByStringName(sEnum.replace("\"", ""));
+            CompetitionEnum competitionEnum = CompetitionEnum.getEnumByStringName(sEnum.replace("\"", ""));
             ret.add(competitionEnum);
         }
         return ret.size() == list.size() ? ret : null;

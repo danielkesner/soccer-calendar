@@ -10,7 +10,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.List;
 
-
 public class EntryPoint {
 
     private List<Team> topTeams;
@@ -29,7 +28,6 @@ public class EntryPoint {
         for (Integer competitionId : ids) {
             LeagueTable leagueTable = new LeagueTable(client.getLeagueTableByCompetitionId(competitionId));
             topTeams = leagueTable.getTopTeamsInLeagueTable();
-            logger.info("CompEnum is: " + leagueTable.getCompetitionOfLeagueTable().toString());
 
             for (Team eachTeam : topTeams) {
                 List<Fixture> list = client.getUpcomingMatchesByTeam(eachTeam, eachTeam.getCompetitionEnum());

@@ -4,8 +4,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import config.ConfigService;
 import constants.ApiConstants;
+import model.CompetitionEnum;
 import model.Fixture;
-import model.Competition;
 import model.Team;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,11 +19,12 @@ import java.util.List;
 public class FootballDataRestClient {
 
     private static final Logger logger = LogManager.getLogger(FootballDataRestClient.class);
-
     private static ObjectMapper mapper = new ObjectMapper();
     private int restCallCounter = 0;
 
-    private JsonNode getResponseFromUrl(String _url) throws IOException {
+    public int getRestCallCounter() { return restCallCounter; }
+
+    private JsonNode makeRequest(String _url) throws IOException {
         URL url = new URL(_url);
         HttpURLConnection apiConnection = (HttpURLConnection) url.openConnection();
         apiConnection.setRequestMethod("GET");
@@ -37,21 +38,21 @@ public class FootballDataRestClient {
 
     /* Returns the raw payload from http://api.football-data.org/v1/competitions/ */
     public JsonNode getCompetitionsNode() throws IOException {
-        return getResponseFromUrl(ApiConstants.COMPETITIONS_ENDPOINT);
+        return makeRequest(ApiConstants.COMPETITIONS_ENDPOINT);
     }
 
     /* Returns the raw payload from /v1/competitions/{id}/leagueTable */
     public JsonNode getLeagueTableByCompetitionId(int competitionId) throws IOException {
-        return getResponseFromUrl(ApiConstants.getLeagueTableEndpoint(competitionId));
+        return makeRequest(ApiConstants.getLeagueTableEndpoint(competitionId));
     }
 
     /* Returns the raw payload from /v1/teams/{teamId}/fixtures?timeFrame=n30
      * (default to next 30 days) */
     public JsonNode getFixtureNodeByTeam(Team team) throws IOException {
-        return getResponseFromUrl(ApiConstants.getFixturesByTeamNextNMatchesEndpoint(team.getTeamApiId(), 30));
+        return makeRequest(ApiConstants.getFixturesByTeamNextNMatchesEndpoint(team.getTeamApiId(), 30));
     }
 
-    public List<Fixture> getUpcomingMatchesByTeam(Team team, Competition.CompetitionEnum competitionEnum) {
+    public List<Fixture> getUpcomingMatchesByTeam(Team team, CompetitionEnum competitionEnum) {
         List<Fixture> upcomingFixturesList = new ArrayList<Fixture>();
 
         JsonNode upcomingFixturesNode = null;
@@ -92,9 +93,9 @@ public class FootballDataRestClient {
         return upcomingFixturesList;
     }
 
-    public int getCompetitionIdByLeague(Competition.CompetitionEnum competition) throws IOException {
+    public int getCompetitionIdByLeague(CompetitionEnum competition) throws IOException {
         String competitionName = competition.getCompetitionName(competition);
-        JsonNode competitionNode = getResponseFromUrl(ApiConstants.COMPETITIONS_ENDPOINT);
+        JsonNode competitionNode = makeRequest(ApiConstants.COMPETITIONS_ENDPOINT);
 
         for (JsonNode eachCompetition : competitionNode) {
             if (eachCompetition.get("caption").toString().contains(competitionName)) {
@@ -103,31 +104,5 @@ public class FootballDataRestClient {
         }
         return -1;
     }
-
-
-    public int getRankingOfTeam(Competition.CompetitionEnum competitionEnum, Team team) throws IOException {
-        JsonNode table = getLeagueTableByCompetitionId(getCompetitionIdByLeague(competitionEnum));
-        for (JsonNode eachTeam : table) {
-            if (eachTeam.get("teamName").asText().replaceAll("\'", "").equals(team.getTeamName())) {
-                return eachTeam.get("position").asInt();
-            }
-        }
-        return -1;
-    }
-
-    public int getRankingOfTeam(Competition.CompetitionEnum competitionEnum, String team) throws IOException {
-        JsonNode table = getLeagueTableByCompetitionId(getCompetitionIdByLeague(competitionEnum));
-        for (JsonNode eachTeam : table) {
-            if (eachTeam.get("teamName").asText().replaceAll("\'", "").equals(team)) {
-                return eachTeam.get("position").asInt();
-            }
-        }
-        return -1;
-    }
-
-    public boolean isTeamWithinThresholdRanking(Competition.CompetitionEnum competitionEnum, Team team) throws IOException {
-        return getRankingOfTeam(competitionEnum, team) <= ConfigService.getStandingsThresholdValue();
-    }
-
 
 }
