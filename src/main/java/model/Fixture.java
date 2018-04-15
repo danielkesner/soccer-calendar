@@ -1,4 +1,4 @@
-package datamodel;
+package model;
 
 import client.FootballDataRestClient;
 import config.ConfigService;
@@ -7,7 +7,6 @@ import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
 
-//TODO: When to set the ranking of a team? If in this class, when? Decide on standardized time (on constructor? on method call?)
 public class Fixture {
 
     private Team homeTeam;
@@ -75,31 +74,35 @@ public class Fixture {
      * Returns a Team object representing the opponent of the
      * Team argument in the fixture passed in. Also sets the rankings for each team in the fixture.
      * */
-    public static Team getOpponent(Fixture fixture, Team team, Competition.CompetitionEnum competitionEnum) throws IOException {
-        setRankingsForEachTeam(fixture, competitionEnum);
-        if (ConfigService.debug()) {
-            logger.info("getOpponent() received the following arguments: \nFixture:\n" +
-                    "Home Team:\t" + fixture.getHomeTeam().getTeamName() + "\nAway team:\t" + fixture.getAwayTeam().getTeamName()
-                    + "\nHome rank:\t" + fixture.getHomeTeam().getCurrentRank() + "\nAway rank:\t" + fixture.getAwayTeam().getCurrentRank()
-                    + "\nTeam argument passed in: " + team.getTeamName() + "\t\tRank of team argument passed in:\t" + team.getCurrentRank());
-        }
+//    public static Team getOpponent(Fixture fixture, Team team, Competition.CompetitionEnum competitionEnum) throws IOException {
+//        setRankingsForEachTeam(fixture, competitionEnum);
+//        if (ConfigService.debug()) {
+//            logger.info("getOpponent() received the following arguments: \nFixture:\n" +
+//                    "Home Team:\t" + fixture.getHomeTeam().getTeamName() + "\nAway team:\t" + fixture.getAwayTeam().getTeamName()
+//                    + "\nHome rank:\t" + fixture.getHomeTeam().getCurrentRank() + "\nAway rank:\t" + fixture.getAwayTeam().getCurrentRank()
+//                    + "\nTeam argument passed in: " + team.getTeamName() + "\t\tRank of team argument passed in:\t" + team.getCurrentRank());
+//        }
+//
+//        // If the argument is the home team, the opponent is the away team
+//        if (team.equals(fixture.getHomeTeam())) {
+//            Team ret = fixture.getAwayTeam();
+//            if (ConfigService.debug()) {
+//                logger.info("getOpponent() returning the following Team: " + ret.getTeamName() + " with rank " + ret.getCurrentRank());
+//            }
+//            return ret;
+//        }
+//        else {
+//            Team ret = fixture.getHomeTeam();
+//            if (ConfigService.debug()) {
+//                logger.info("getOpponent() returning the following Team: " + ret.getTeamName() + " with rank " + ret.getCurrentRank());
+//            }
+//            return ret;
+//        }
+//    }
 
-        // If the argument is the home team, the opponent is the away team
-        if (team.equals(fixture.getHomeTeam())) {
-            Team ret = fixture.getAwayTeam();
-            if (ConfigService.debug()) {
-                logger.info("getOpponent() returning the following Team: " + ret.getTeamName() + " with rank " + ret.getCurrentRank());
-            }
-            return ret;
-        }
-        else {
-            Team ret = fixture.getHomeTeam();
-            if (ConfigService.debug()) {
-                logger.info("getOpponent() returning the following Team: " + ret.getTeamName() + " with rank " + ret.getCurrentRank());
-            }
-            return ret;
-        }
-    }
+//    public static Team getOpponent() {
+//
+//    }
 
     public String toString(Team team) {
         return team.getTeamName();

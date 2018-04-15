@@ -1,7 +1,7 @@
 package configservice;
 
 import config.ConfigService;
-import datamodel.Competition;
+import model.Competition;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

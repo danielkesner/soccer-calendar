@@ -1,6 +1,6 @@
 package config;
 
-import datamodel.Competition;
+import model.Competition;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -45,6 +45,10 @@ public class ConfigService {
             ret.add(competitionEnum);
         }
         return ret.size() == list.size() ? ret : null;
+    }
+
+    public static List<String> getCompetitionsAsStrings() throws IOException {
+        return Arrays.asList(getValue("COMPETITIONS").split(","));
     }
 
     /*

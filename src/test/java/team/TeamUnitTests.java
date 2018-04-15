@@ -1,7 +1,7 @@
 package team;
 
-import datamodel.Competition;
-import datamodel.Team;
+import model.Competition;
+import model.Team;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

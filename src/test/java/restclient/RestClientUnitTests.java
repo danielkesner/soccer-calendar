@@ -3,7 +3,7 @@ package restclient;
 import client.FootballDataRestClient;
 import com.fasterxml.jackson.databind.JsonNode;
 import config.ConfigService;
-import datamodel.Competition;
+import model.Competition;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -53,29 +53,5 @@ public class RestClientUnitTests {
         Assert.assertEquals(ret, 450, "Expected Bundesliga competition id getEnumByStringName 450, got: " + ret);
     }
 
-    /*
-    * Given a JsonNode for Manchester City, return 65 (ManCity's internal ID from FootballData API)
-    * */
-    @Test
-    public void getTeamIdByNameManchesterCity() throws Exception {
-        Competition.CompetitionEnum competitionEnum = Competition.CompetitionEnum.PREMIER_LEAGUE;
-        JsonNode node = client.getLeagueTableByCompetitionId(client.getCompetitionIdByLeague(competitionEnum)).get(0);
-        final int expected = 65;
-        Assert.assertEquals(client.getTeamIdFromTableSubNode(node), expected, "Expected Man City ID of 65, got " + client.getTeamIdFromTableSubNode(node));
-    }
-
-    @Test
-    public void getTeamIdsForTopThresholdTeamsInPremierLeague() throws IOException {
-        Competition.CompetitionEnum competitionEnum = Competition.CompetitionEnum.PREMIER_LEAGUE;
-        Assert.assertEquals(client.getTeamIdsForTopThresholdTeams(competitionEnum).size(), ConfigService.getNumberOfCompetitions());
-    }
-
-
-    @Test
-    void getTable() throws Exception {
-        Competition.CompetitionEnum competitionEnum = Competition.CompetitionEnum.PREMIER_LEAGUE;
-        JsonNode node = client.getLeagueTableByCompetitionId(client.getCompetitionIdByLeague(competitionEnum));
-
-    }
 
 }
