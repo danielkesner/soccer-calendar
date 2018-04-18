@@ -12,10 +12,7 @@ import java.util.List;
 
 public class EntryPoint {
 
-    private List<Team> topTeams;
-
     private static final FootballDataRestClient client = new FootballDataRestClient();
-
     private static final Logger logger = LogManager.getLogger(EntryPoint.class);
 
     private void doV2() throws Exception {
@@ -24,6 +21,7 @@ public class EntryPoint {
         CacheService cacheService = new CacheService();
         cacheService.onStart();
         List<Integer> ids = cacheService.getAllCompetitionsIds();
+        List<Team> topTeams;
 
         for (Integer competitionId : ids) {
             LeagueTable leagueTable = new LeagueTable(client.getLeagueTableByCompetitionId(competitionId));

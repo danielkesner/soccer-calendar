@@ -7,12 +7,15 @@ import constants.ApiConstants;
 import model.CompetitionEnum;
 import model.Fixture;
 import model.Team;
+import org.apache.commons.io.IOUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,7 +36,20 @@ public class FootballDataRestClient {
             logger.info("Made API call to the following endpoint: " + _url);
             logger.info("Total calls for this client instance: " + ++restCallCounter);
         }
-        return mapper.readTree(apiConnection.getInputStream());
+        JsonNode response = null;
+        InputStream stream = null;
+        try {
+            stream = apiConnection.getInputStream();
+            response =  mapper.readTree(stream);
+        } catch (Exception ex) {
+            logger.info(stream != null ? IOUtils.toString(stream, (Charset)null)
+                : "InputStream object is null!");
+        } finally {
+            if (stream != null) {
+                stream.close();
+            }
+        }
+        return response;
     }
 
     /* Returns the raw payload from http://api.football-data.org/v1/competitions/ */

@@ -9,3 +9,4 @@
 /log/
 *.log
 *.class
+/src/main/resources/client_secret*
