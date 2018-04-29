@@ -14,8 +14,9 @@ import com.google.api.client.util.store.FileDataStoreFactory;
 import com.google.api.services.calendar.CalendarScopes;
 import com.google.api.services.calendar.model.Event;
 import com.google.api.services.calendar.model.EventDateTime;
+import model.Fixture;
+import util.DateTimeUtil;
 
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -24,13 +25,7 @@ import java.util.List;
 
 public class GoogleCalendarIntegration {
 
-    private File credentialFile = new File("/Users/dkesner/.credentials/calendar-java-quickstart");
-
-    /**
-     * Application name.
-     */
-    private static final String APPLICATION_NAME =
-            "Google Calendar API Java Quickstart";
+    private static final String APPLICATION_NAME = "Soccer Notification App";
 
     /**
      * Directory to store user credentials for this application.
@@ -46,8 +41,7 @@ public class GoogleCalendarIntegration {
     /**
      * Global instance of the JSON factory.
      */
-    private static final JsonFactory JSON_FACTORY =
-            JacksonFactory.getDefaultInstance();
+    private static final JsonFactory JSON_FACTORY = JacksonFactory.getDefaultInstance();
 
     /**
      * Global instance of the HTTP transport.
@@ -75,9 +69,6 @@ public class GoogleCalendarIntegration {
 
     /**
      * Creates an authorized Credential object.
-     *
-     * @return an authorized Credential object.
-     * @throws IOException
      */
     public static Credential authorize() throws IOException {
         // Load client secrets.
@@ -102,9 +93,6 @@ public class GoogleCalendarIntegration {
 
     /**
      * Build and return an authorized Calendar client service.
-     *
-     * @return an authorized Calendar client service
-     * @throws IOException
      */
     public static com.google.api.services.calendar.Calendar
     getCalendarService() throws IOException {
@@ -114,6 +102,44 @@ public class GoogleCalendarIntegration {
                 .setApplicationName(APPLICATION_NAME)
                 .build();
     }
+
+    private void mapFixturesToEvents() {
+
+    }
+
+    private static boolean setEventsInCalendar() {
+
+
+        return false;
+    }
+
+    private Event createGoogleEventFromFixture(Fixture fixture) {
+        if (fixture.getAwayTeam() == null || fixture.getHomeTeam() == null || fixture.getDate() == null) {
+            throw new RuntimeException("Received invalid Fixture object in createGoogleEventFromFixture()!");
+        }
+
+        String homeTeam = fixture.getHomeTeam().getTeamName();
+        String awayTeam = fixture.getAwayTeam().getTeamName();
+        String date = fixture.getDate();
+
+        Event event = new Event()
+                .setDescription(homeTeam + " vs. " + awayTeam)
+                .setSummary(homeTeam + " vs. " + awayTeam);
+
+        EventDateTime startTime = new EventDateTime()
+                .setDateTime(new DateTime(date))
+                .setTimeZone("America/Los_Angeles");
+        event.setStart(startTime);
+
+        String endDateTime = DateTimeUtil.incrementTimeByTwoHours(date);
+        EventDateTime endTime = new EventDateTime()
+                .setDateTime(new DateTime(endDateTime))
+                .setTimeZone("America/Los_Angeles");
+        event.setEnd(endTime);
+
+        return event;
+    }
+
 
     public static void main(String[] args) throws IOException {
 
