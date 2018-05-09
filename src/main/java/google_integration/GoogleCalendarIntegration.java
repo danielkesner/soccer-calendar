@@ -11,6 +11,7 @@ import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.jackson2.JacksonFactory;
 import com.google.api.client.util.DateTime;
 import com.google.api.client.util.store.FileDataStoreFactory;
+import com.google.api.services.calendar.Calendar;
 import com.google.api.services.calendar.CalendarScopes;
 import com.google.api.services.calendar.model.Event;
 import com.google.api.services.calendar.model.EventDateTime;
@@ -49,7 +50,7 @@ public class GoogleCalendarIntegration {
     private static HttpTransport HTTP_TRANSPORT;
 
     /**
-     * Global instance of the scopes required by this quickstart.
+     * Allows write access to Calendar service objects
      * <p>
      * If modifying these scopes, delete your previously saved credentials
      * at ~/.credentials/calendar-java-quickstart
@@ -57,14 +58,29 @@ public class GoogleCalendarIntegration {
     private static final List<String> SCOPES =
             Arrays.asList(CalendarScopes.CALENDAR);
 
+    /**
+    *  Global calendar instance returned by getCalendarInstance() and
+     *  statically initialized on load
+    * */
+    private static Calendar _calendarService;
+
     static {
         try {
             HTTP_TRANSPORT = GoogleNetHttpTransport.newTrustedTransport();
             DATA_STORE_FACTORY = new FileDataStoreFactory(DATA_STORE_DIR);
+            _calendarService = getCalendarService();
         } catch (Throwable t) {
             t.printStackTrace();
             System.exit(1);
         }
+    }
+
+    /**
+     * Returns a reference to the global calendar object used in this class
+     * (Note: not thread-safe! Do not call this method in a multi-threaded context!)
+     * */
+    public static Calendar getCalendarInstance() {
+        return _calendarService;
     }
 
     /**
@@ -103,17 +119,16 @@ public class GoogleCalendarIntegration {
                 .build();
     }
 
-    private void mapFixturesToEvents() {
-
+    public static boolean setEventsInCalendar(Event event, Calendar service) {
+        try {
+            service.events().insert("primary", event).execute();
+        } catch (IOException ioe) {
+            return false;
+        }
+        return true;
     }
 
-    private static boolean setEventsInCalendar() {
-
-
-        return false;
-    }
-
-    private Event createGoogleEventFromFixture(Fixture fixture) {
+    public static Event createGoogleEventFromFixture(Fixture fixture) {
         if (fixture.getAwayTeam() == null || fixture.getHomeTeam() == null || fixture.getDate() == null) {
             throw new RuntimeException("Received invalid Fixture object in createGoogleEventFromFixture()!");
         }
@@ -140,32 +155,4 @@ public class GoogleCalendarIntegration {
         return event;
     }
 
-
-    public static void main(String[] args) throws IOException {
-
-        com.google.api.services.calendar.Calendar service =
-                getCalendarService();
-
-        // Create Event for 5/12
-        Event event = new Event()
-                .setSummary("Test NUMBER TWO BITCH")
-                .setLocation("Nowhere")
-                .setDescription("Test EVENT TWO BITCH");
-
-        DateTime startDateTime = new DateTime("2018-05-12T13:30:00Z");
-        EventDateTime start = new EventDateTime()
-                .setDateTime(startDateTime)
-                .setTimeZone("America/Los_Angeles");
-        event.setStart(start);
-
-        DateTime endTime = new DateTime("2018-05-12T15:00:00Z");
-        EventDateTime end = new EventDateTime()
-                .setDateTime(endTime)
-                .setTimeZone("America/Los_Angeles");
-        event.setEnd(end);
-
-        event = service.events().insert("primary", event).execute();
-        System.out.printf("Event created: %s\n", event.getHtmlLink());
-
-    }
 }
