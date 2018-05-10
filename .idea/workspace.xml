@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d43cb739-9034-40a6-9780-fac5d7270825" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/CompetitionEnum.java" afterDir="false" />
+    <list default="true" id="502b96e3-6b84-49e1-b6b7-417affbb7850" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DateTimeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/CrunchifyTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/CrunchifyTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soccercalendar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/soccercalendar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/EntryPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cache/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cache/CacheService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/FootballDataRestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/FootballDataRestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/ConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ConfigService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/constants/OtherConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Competition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Fixture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Fixture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/LeagueTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/LeagueTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cache/competitionIds.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cache/competitionIds.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client/FootballDataRestClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/FootballDataRestClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/constants/OtherConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/configservice/ConfigServiceUnitTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configservice/ConfigServiceUnitTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/model/FixtureUnitTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/model/FixtureUnitTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/restclient/RestClientUnitTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/restclient/RestClientUnitTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/team/TeamUnitTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/team/TeamUnitTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/EntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,18 +18,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/soccercalendar$FootballDataRestClient.coverage" NAME="FootballDataRestClient Coverage Results" MODIFIED="1516055779796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>client.*</FILTER>
-    </SUITE>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LeagueTable.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/LeagueTable.java">
+      <file leaf-file-name="DateTimeUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/DateTimeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleCalendarIntegration.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#authorize#0;class#GoogleCalendarIntegration#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationLogic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,61 +63,29 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>File</find>
-      <find>getOpp</find>
-      <find>getOpponent</find>
-      <find>c0edd888fdb74067812142854be00cc4</find>
-      <find>debug</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/config.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/dataprovider/DataProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataprovider/CurrentRankingsDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dataprovider/UpcomingMatchesDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/constants/OtherConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/constants/ApiConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/ids.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/model/League.java" />
-        <option value="$PROJECT_DIR$/src/test/java/team/TeamUnitTests.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/cache.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/cache/Cache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/constants/LeagueNameConstants.java" />
-        <option value="$PROJECT_DIR$/src/test/java/model/CompetitionUnitTests.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/mock_config_file_1.cfg" />
-        <option value="$PROJECT_DIR$/src/test/java/UnitTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/configservice/ConfigServiceUnitTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cache/AppDataCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cache/CacheLoader.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.cfg" />
-        <option value="$PROJECT_DIR$/src/test/java/restclient/RestClientUnitTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/model/FixtureUnitTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datamodel/Team.java" />
-        <option value="$PROJECT_DIR$/src/main/java/datamodel/Fixture.java" />
-        <option value="$PROJECT_DIR$/src/main/java/driver/Driver.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/application/EntryPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Competition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/CompetitionEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cache/CacheService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Team.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/Fixture.java" />
         <option value="$PROJECT_DIR$/src/main/java/client/FootballDataRestClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/config/ConfigService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/LeagueTable.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/application/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/client_secret.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/DateTimeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -124,11 +94,13 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1932" />
-    <option name="y" value="62" />
-    <option name="width" value="1920" />
-    <option name="height" value="1177" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -136,33 +108,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -170,68 +143,60 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="google_integration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="soccercalendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
               <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="soccer-calendar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="soccercalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value=".gitignore&#9;FILE&#9;file:///Users/dkesner/Documents/soccercalendar/.gitignore&#10;Team&#9;FILE&#9;file:///Users/dkesner/Documents/soccercalendar/src/main/java/model/Team.java" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -246,39 +211,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EntryPoint">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="driver.Driver" />
-      <module name="soccercalendar" />
+  <component name="RunManager" selected="Application.DateTimeUtil">
+    <configuration name="DateTimeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.DateTimeUtil" />
+      <module name="soccer-calendar" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="driver.*" />
+          <option name="PATTERN" value="util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="EntryPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="application.EntryPoint" />
-      <module name="soccercalendar" />
+    <configuration name="GoogleCalendarIntegration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="google_integration.GoogleCalendarIntegration" />
+      <module name="soccer-calendar" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="FootballDataRestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="client.FootballDataRestClient" />
-      <module name="soccercalendar" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="client.*" />
+          <option name="PATTERN" value="google_integration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,70 +246,12 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="FixtureUnitTests.getOpponent_1" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="soccercalendar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.FixtureUnitTests" />
-      <option name="METHOD_NAME" value="getOpponent_1" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="FootballDataRestClient.getRankingOfTeam" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="soccercalendar" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="client" />
-      <option name="MAIN_CLASS_NAME" value="client.FootballDataRestClient" />
-      <option name="METHOD_NAME" value="getRankingOfTeam" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -371,7 +264,7 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -382,452 +275,271 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
     <list>
-      <item itemvalue="TestNG.FootballDataRestClient.getRankingOfTeam" />
-      <item itemvalue="Application.FootballDataRestClient" />
-      <item itemvalue="Application.Driver" />
-      <item itemvalue="TestNG.FixtureUnitTests.getOpponent_1" />
-      <item itemvalue="Application.EntryPoint" />
+      <item itemvalue="Application.GoogleCalendarIntegration" />
+      <item itemvalue="Application.DateTimeUtil" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EntryPoint" />
-        <item itemvalue="Application.Driver" />
-        <item itemvalue="TestNG.FixtureUnitTests.getOpponent_1" />
-        <item itemvalue="Application.FootballDataRestClient" />
-        <item itemvalue="TestNG.FootballDataRestClient.getRankingOfTeam" />
+        <item itemvalue="Application.DateTimeUtil" />
+        <item itemvalue="Application.GoogleCalendarIntegration" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d43cb739-9034-40a6-9780-fac5d7270825" name="Default" comment="" />
-      <created>1516048401071</created>
+      <changelist id="502b96e3-6b84-49e1-b6b7-417affbb7850" name="Default" comment="" />
+      <created>1524010593758</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1516048401071</updated>
+      <updated>1524010593758</updated>
+      <workItem from="1524010597670" duration="623000" />
+      <workItem from="1524011442937" duration="7630000" />
+      <workItem from="1524088087616" duration="121000" />
+      <workItem from="1524159275979" duration="237000" />
+      <workItem from="1524782808140" duration="1732000" />
+      <workItem from="1524961813376" duration="10000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="FixtureUnitTests_getOpponent_1 - 2018.03.21 at 13h 53m 53s.xml">
-      <configuration name="FixtureUnitTests.getOpponent_1" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_getTable - 2018.02.19 at 14h 43m 00s.xml">
-      <configuration name="RestClientUnitTests.getTable" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_getTeamIdByNameManchesterCity - 2018.02.06 at 16h 55m 13s.xml">
-      <configuration name="RestClientUnitTests.getTeamIdByNameManchesterCity" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_getTeamIdsForTopThresholdTeamsInPremierLeague - 2018.02.06 at 16h 56m 51s.xml">
-      <configuration name="RestClientUnitTests.getTeamIdsForTopThresholdTeamsInPremierLeague" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_getTeamIdsForTopThresholdTeamsInPremierLeague - 2018.02.06 at 16h 57m 17s.xml">
-      <configuration name="RestClientUnitTests.getTeamIdsForTopThresholdTeamsInPremierLeague" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_getTeamIdsForTopThresholdTeamsInPremierLeague - 2018.02.06 at 16h 57m 35s.xml">
-      <configuration name="RestClientUnitTests.getTeamIdsForTopThresholdTeamsInPremierLeague" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_getTeamIdsForTopThresholdTeamsInPremierLeague - 2018.02.06 at 17h 31m 33s.xml">
-      <configuration name="RestClientUnitTests.getTeamIdsForTopThresholdTeamsInPremierLeague" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_getTeamIdsForTopThresholdTeamsInPremierLeague - 2018.02.06 at 17h 32m 31s.xml">
-      <configuration name="RestClientUnitTests.getTeamIdsForTopThresholdTeamsInPremierLeague" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_test - 2018.02.06 at 16h 08m 53s.xml">
-      <configuration name="RestClientUnitTests.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RestClientUnitTests_test - 2018.02.06 at 16h 23m 57s.xml">
-      <configuration name="RestClientUnitTests.test" configurationId="TestNG" />
-    </history-entry>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.31690142" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50319487" side_tool="true" weight="0.6435185" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968051" weight="0.94929576" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7028169" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32676056" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3288" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2653791" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42112675" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3297568" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32994455" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49713877" weight="0.48243994" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286517" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4232902" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5028612" side_tool="true" weight="0.5244755" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32439926" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15654951" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3296" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3297568" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968051" weight="0.4138889" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17811158" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32676056" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42112675" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32816902" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50319487" side_tool="true" weight="0.6435185" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.31690142" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-    </layout-to-restore>
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.cfg" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/restclient/RestClientUnitTests.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/datamodel/Fixture.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="57" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>result.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>originalDateTime.substring(originalDateTime.indexOf(':'))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>originalDateTime.substring(originalDateTime.lastIndexOf(':'))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>originalDateTime.substring(0, beginTime)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>originalTime.substring(3,5)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>originalTime.substring(4,5)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>originalTime.substring(0,2)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>originalDate.substring(originalDate.lastIndexOf('T')+1, originalDate.length()-1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>originalDate.substring(originalDate.lastIndexOf('T')+1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/datamodel/Fixture.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/FootballDataRestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding>
-            <element signature="method#getCompetitionIdByLeague#0;class#FootballDataRestClient#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/ApiConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/OtherConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datamodel/Fixture.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/datamodel/Team.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/ApiConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/OtherConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/FootballDataRestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="method#getCompetitionIdByLeague#0;class#FootballDataRestClient#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/net/HttpURLConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="418" column="16" selection-start-line="418" selection-start-column="16" selection-end-line="418" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataprovider/DataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Driver.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ids.txt" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cache.txt" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/model/CompetitionUnitTests.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/mock_config_file_1.cfg">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/DateTimeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="70" selection-start-column="63" selection-end-column="70" />
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/src.zip!/java/lang/InheritableThreadLocal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="75">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UnitTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/configservice/ConfigServiceUnitTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="141" lean-forward="true" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#authorize#0;class#GoogleCalendarIntegration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#authorize#0;class#GoogleCalendarIntegration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="135" column="5" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#authorize#0;class#GoogleCalendarIntegration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="135" column="5" lean-forward="true" selection-start-line="135" selection-start-column="5" selection-end-line="135" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#authorize#0;class#GoogleCalendarIntegration#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soccer-calendar-google-integration/src/main/resources/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="111" selection-start-column="111" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soccer-calendar-google-integration/src/main/resources/client_secret.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="111" selection-start-column="111" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.3/jackson-databind-2.9.3.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="978" column="20" selection-start-line="978" selection-start-column="20" selection-end-line="978" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/client/FootballDataRestClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/team/TeamUnitTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datamodel/Competition.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cache/CacheLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cache/AppDataCache.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/restclient/RestClientUnitTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/client_secret.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/CrunchifyTest.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataprovider/UpcomingMatchesDataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/dataprovider/CurrentRankingsDataProvider.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/model/FixtureUnitTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getOpponent_and_assert_Swansea_not_in_threshold#0;class#FixtureUnitTests#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/datamodel/Team.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/datamodel/Fixture.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/driver/Driver.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar!/org/apache/logging/log4j/core/util/FileUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state relative-caret-position="765">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/OtherConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Competition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application/EntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/FootballDataRestClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="method#getCompetitionIdByLeague#0;class#FootballDataRestClient#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cache/CacheService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#874#899#0" expanded="true" />
-            <element signature="method#getAllCompetitionsIds#0;class#CacheService#0" />
-            <element signature="method#getCompetitionIdByCompetitionEnum#0;class#CacheService#0" />
-            <element signature="method#loadCache#0;class#CacheService#0" />
-            <element signature="method#writeCompetitionIds#0;class#CacheService#0" />
-            <element signature="method#createCompetitionIdsMap#0;class#CacheService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/ConfigService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#1454#1471#0" expanded="true" />
-            <element signature="method#getValue#0;class#ConfigService#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/ApiConstants.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="method#getApiKey#0;class#ApiConstants#0" />
-          </folding>
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/CacheConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constants/LeagueNameConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/CompetitionEnum.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -838,19 +550,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Team.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/application/ApplicationLogic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="48" column="69" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+        <state relative-caret-position="75">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/LeagueTable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/DateTimeUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/google_integration/GoogleCalendarIntegration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="122" column="9" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#authorize#0;class#GoogleCalendarIntegration#0" />
           </folding>
         </state>
       </provider>
@@ -858,80 +581,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>soccercalendar</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: org.apache.logging.log4j:log4j-api:2.8.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
