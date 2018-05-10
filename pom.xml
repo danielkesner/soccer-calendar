@@ -6,7 +6,7 @@
 
     <groupId>com.github.danielkesner</groupId>
     <artifactId>soccer-calendar</artifactId>
-    <version>0.9.0</version>
+    <version>0.9.0-SNAPSHOT</version>
 
     <name>Soccer Notification System</name>
     <description>Automatically stay informed via Google Calendar events about upcoming competitive soccer matches anywhere in the world.</description>
