@@ -36,6 +36,7 @@ hs_err_pid*
 *.log
 log/
 logs/
+src/main/resources/client_secret.json
 
 
 #---------------------------------------#
