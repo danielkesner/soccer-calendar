@@ -13,4 +13,4 @@ If you want to use or extend this project, just include the following as a depen
 <artifactId>soccer-calendar</artifactId>
 <version>0.9.0-SNAPSHOT</version>
 ```    
-To run the application, just call to Application.run().
+To run the application, just call `Application.run()`.
