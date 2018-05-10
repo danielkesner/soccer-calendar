@@ -9,8 +9,8 @@ The master branch will always be even with the most recent release version, and 
 ### How do I use this?
 If you want to use or extend this project, just include the following as a dependency in your Maven project:
 ```
-    <groupId>com.github.danielkesner</groupId>
-    <artifactId>soccer-calendar</artifactId>
-    <version>0.9.0-SNAPSHOT</version>
+<groupId>com.github.danielkesner</groupId>
+<artifactId>soccer-calendar</artifactId>
+<version>0.9.0-SNAPSHOT</version>
 ```    
 To run the application, just call to Application.run().
