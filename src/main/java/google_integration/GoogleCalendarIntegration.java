@@ -128,6 +128,10 @@ public class GoogleCalendarIntegration {
         return true;
     }
 
+    void v() {
+        DateTime z = new DateTime("2017-10-08T13:00:30.767000Z");
+    }
+
     public static Event createGoogleEventFromFixture(Fixture fixture) {
         if (fixture.getAwayTeam() == null || fixture.getHomeTeam() == null || fixture.getDate() == null) {
             throw new RuntimeException("Received invalid Fixture object in createGoogleEventFromFixture()!");
